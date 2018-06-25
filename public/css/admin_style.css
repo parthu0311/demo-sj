@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic);
+/*!
+ *   AdminLTE v2.3.8
+ *   Author: Almsaeed Studio
+ *	 Website: Almsaeed Studio <http://almsaeedstudio.com>
+ *   License: Open source - MIT
+ *           Please visit http://opensource.org/licenses/MIT for more information
+!*/
+/*
+ * Core: General Layout Style
+ * -------------------------
+ */
+.red{
+    color: red;
+}
+.skin-blue .main-header .navbar {
+    background-color: #535c69 !important;
+}
+.skin-blue .main-header .logo {
+    background-color: #535c69 !important;
+}
+.skin-blue .main-header .logo:hover{background-color:#535c69 !important}
+
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+    background-color: #ffffff !important;
+}
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a {
+    color: #166BB2 !important;
+    background: #ffffff !important;
+}
+.skin-blue .sidebar-menu>li.header {
+    color: #4b646f;
+    background: #ffffff !important;;
+}
+
+.content-wrapper, .right-side {
+    background-color: #eceef4;
+}
+.skin-blue .sidebar a {
+    color: #333333 !important;
+}
+.skin-blue .treeview-menu>li>a {
+    color: #767676;
+}
+.login-page, .register-page {
+    background-color: #ffffff !important;
+}
+
+body {
+    color: #484848 !important;
+}
+
+.sidebar-menu .treeview-menu > li > a {
+   background-color: #ffffff;
+}
+.btn-primary {
+    background-color: #428bca;
+}
+.bg-olive {
+    background-color: #428bca !important;
+}
+.form-control {
+    color: #333 !important;
+}
+.skin-blue .main-header li.user-header {
+    background-color: #ffffff !important;
+}
+
+.box.box-solid.box-primary > .box-header{
+    background: #428bca !important;
+    background-color: #428bca !important;
+}
+
+.skin-blue .treeview-menu > li.active > a, .skin-blue .treeview-menu > li > a:hover {
+    color: #166BB2 !important;
+}
+.btn-default {
+    background-color: #428bca;
+ /**/   color: #FFFFFF;
+    border-color: #ddd;
+}
+.navbar-nav > .user-menu > .dropdown-menu > .user-footer .btn-default {
+    color: #fff;
+}
+.navbar-nav > .user-menu > .dropdown-menu > .user-footer .btn-default:hover {
+    color: #428bca;
+}
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header > p{color:#484848;}
+
+.loader-container {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    background: url(../img/pre_loader.gif) center no-repeat rgba(255,255,255,.50);
+}
+
+/*drag n drop*/
+.cstm-card {
+	width: 100%;
+	padding-top: 10px;
+	border-radius: 4px;
+	box-shadow: 0 3px 12px rgba(0, 0, 0, 0.175);
+}
+.cstm-card > h3{margin-top:10px; padding-left:15px;}
+
+.cstm-card > form > .cstm-frmgrp{
+	cursor: move;
+	list-style: none;
+	margin: 0;
+	padding: 10px 10px 10px 15px;
+	text-align: left;
+	background: #fff;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	border-bottom:1px solid #ccc;	
+}
+.cstm-card > form > .cstm-frmgrp:last-child{
+	border-bottom:none;
+}
+.cstm-card > form > .cstm-frmgrp:hover{
+	background-color:#f2f2f2;
+}
+
+.cstm-frmgrp > .tag > label{
+	font-size:14px;
+	color:#333;
+	font-weight:400;
+	cursor: move;
+	margin:0;
+}
+.cstm-frmgrp > .tag > label > i.flaticon{
+	margin-right:5px;	
+}
+
+.input-file {
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 0.1px;
+    z-index: -1;
+}
+.input-file + .js-labelFile {
+    cursor: pointer;
+    overflow: hidden;
+    padding: 6px 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.btn-tertiary {
+    background-color: #fff;
+    border: 1px solid #5a5a5a;
+    color: #2f2f2f;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.input-file + .js-labelFile .icon::before {
+    content: "";
+}
+.radio-inline > label, .checkbox-inline > label{font-weight: 400;}
+
+

@@ -1,0 +1,18 @@
+[ { "value": 1 , "text": "Navy"   , "color": "bgg-navy"    },
+  { "value": 2 , "text": "Blue"      , "color": "bgg-blue"    },
+  { "value": 3 , "text": "Aqua"       , "color": "bgg-aqua"    },
+  { "value": 4 , "text": "Teal"  , "color": "bgg-teal"   },
+  { "value": 5 , "text": "Olive" , "color": "bgg-olive"   },
+  { "value": 6 , "text": "Green", "color": "bgg-green"   },
+  { "value": 7 , "text": "Lime"      , "color": "bgg-lime" },
+  { "value": 8 , "text": "Yellow"  , "color": "bgg-yellow" },
+  { "value": 9 , "text": "Orange"    , "color": "bgg-orange" },
+  { "value": 10, "text": "Red"     , "color": "bgg-red"      },
+  { "value": 11, "text": "Fuchsia"   , "color": "bgg-fuchsia"      },
+  { "value": 12, "text": "Purple"   , "color": "bgg-purple"      },
+  { "value": 13, "text": "Maroon"       , "color": "bgg-maroon"    },
+  { "value": 14, "text": "White"   , "color": "bgg-white black tag_with"    },
+  { "value": 15, "text": "Gray"    , "color": "bgg-gray"},
+  { "value": 16, "text": "Silver"  , "color": "bgg-silver black"},
+  { "value": 17, "text": "Black"  , "color": "bgg-black white"    }
+]
